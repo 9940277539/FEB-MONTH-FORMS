@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+    <title> BIRTH CERTIFICATE SEARCH </title> </head>
+    <body>
+        <form action="" method="post">
+             <table border="1" width="80%" cellspacing="20%" cellpadding="20%">
+           <tr>
+               <td colspan="5" align="center" bgcolor="sky blue"> BIRTH CERTIFICATE SEARCH </td>
+                          
+           </tr>
+           <tr>
+            <td rowspan="5"> *RCHID </td>
+            <td rowspan="5"> <input type="text" name="name" required> </td>
+            <td rowspan="5"> (or) </td>
+            <td> Gender*</td> 
+           <td> <input type="radio" name="gender" value="MALE"> Male
+            <input type="radio" name="gender" value="FEMALE"> Female
+            <input type="radio" name="gender" value="OTHER"> Other </td>            
+        </tr>
+        <tr>
+         
+            
+            
+            <td> *District  </td>
+            <td> <select name="sldistrict">
+                <option></option>
+                <option value="CHENGALPATTU">CHENGALPATTU</option>
+                <option value="ARIYALUR">ARIYALUR</option>
+                <option value="CUDDALORE">CUDDALORE</option>
+                <option value="DHARMAPURI">DHARMAPURI</option>
+                <option value="DINDIGUL">DINDIGUL</option>
+                <option value="ERODE">ERODE</option>
+                <option value="KALLAKURICHI">KALLAKURICHI</option>
+                <option value="KANCHEEPURAM">KANCHEEPURAM</option>
+                <option value="KARUR">KARUR</option>
+                <option value="MADURAI">MADURAI</option>
+                <option value="PERAMBALUR">PERAMBALUR</option>
+            </select> For Chennai Please <a href="http://gccapp.chennaicorporation.gov.in/birth_death_tn/PubBirthCertReport.jsp" target="blank">click here</a></td>              
+        </tr>
+        <tr>
+            
+            
+           
+            <td> *Place Of Birth </td>
+            <td>  <input type="radio" name="place" value="Hospital"> Hospital  
+                <input type="radio" name="place" value="Home/Others">  Home/Others  <br>
+                <select name="slhosname">
+                    <option>click here to select hospital name</option>
+                    <option> A.PERAIYUR</option>
+                    <option> ADAIKKAMPATTI PHC</option>
+                    <option> ADHANUR</option>
+                    <option>AGARAM</option>
+                    <option>ANNAMANGALAM</option>
+                    <option>DHANALAKSHMI MEDICAL COLLEGE</option>
+                    <option>DEVI HOSPITAL</option>
+                    <option> DR. DEVARAJAN HOSPITAL</option>
+                    <option> M.G.HOSPITAL</option>
+                    <option>LAKSHMI HOSPITAL</option>
+                    <option>MANGALAMEDU</option>
+                </select>
+            
+            </td>                   
+               <tr>   
+            <td> *Date Of Birth </td>
+            <td> <input type="date" name="DOB"required> </td>          
+        </tr>  
+        
+        </table>
+        <table border="1" width="80%" cellspacing="20%" cellpadding="20%">
+            <tr>
+                <td>*Mobile Number <input type="number" name="ph.no" required> </td>
+                <td>  <input type="password" name="password" required>
+                    <input type="submit" value="Enter OTP"> 
+                    <input type="submit" value=" Re-Send OTP"> </td>
+            </tr>
+            <tr>
+                <td colspan="2"> *Number Verification:- 
+                    <font color="blue"> 12456789</font> 
+                    <input type="text" name="num verification" placeholder="enter verification number" required> 
+                </td>               
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="VIEW"> 
+                    <input type="submit" value="RESET">
+                </td>
+            </tr>
+        </table>
+        <table border="1" width="80%" cellspacing="20%" cellpadding="20%">
+            <tr bgcolor="sky blue">
+                <td>S NO</td>
+                <td>REG NO</td>
+                <td>CHILD NAME</td>
+                <td>SEX</td>
+                <td>DATE OF BIRTH</td>
+                <td>FATHER NAME</td>
+                <td>MOTHER NAME</td>
+                <td>REGISTRATION DATE</td>
+            </tr>
+            <tr>
+                <td colspan="8" align="center">NO DATA</td>
+            </tr>
+        </table>
+     
+
+    </form>
+
+
+    </body>
+</html>
